@@ -70,6 +70,9 @@ p {
   @media (max-width: 576px) {
     margin-bottom: 40px;
   }
+  &-small {
+    margin-bottom: 10px;
+  }
 }
 
 .icon {

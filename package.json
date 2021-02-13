@@ -7,6 +7,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.12.16",
+    "@parcel/core": "^2.0.0-alpha.3",
     "@parcel/optimizer-cssnano": "2.0.0-nightly.592",
     "@parcel/optimizer-htmlnano": "2.0.0-nightly.592",
     "@parcel/packager-css": "2.0.0-nightly.592",

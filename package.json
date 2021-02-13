@@ -1,8 +1,8 @@
 {
   "name": "iqbalperkasa.com",
   "scripts": {
-    "dev": "parcel index.pug",
-    "build": "rm -rf build/ && parcel build index.pug -d build"
+    "dev": "parcel serve index.pug",
+    "build": "rm -rf build/ && parcel build index.pug --dist-dir build"
   },
   "license": "ISC",
   "devDependencies": {

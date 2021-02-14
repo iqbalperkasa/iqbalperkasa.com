@@ -1,13 +1,25 @@
 {
   "name": "iqbalperkasa.com",
   "scripts": {
-    "dev": "parcel index.pug",
-    "build": "rm -rf build/ && parcel build index.pug -d build"
+    "dev": "parcel serve index.pug",
+    "build": "rm -rf build/ && parcel build index.pug --dist-dir build"
   },
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.3",
-    "pug": "^2.0.4",
-    "sass": "^1.22.10"
+    "@babel/core": "^7.12.16",
+    "@parcel/optimizer-cssnano": "2.0.0-nightly.592",
+    "@parcel/optimizer-htmlnano": "2.0.0-nightly.592",
+    "@parcel/packager-css": "2.0.0-nightly.592",
+    "@parcel/packager-html": "2.0.0-nightly.592",
+    "@parcel/transformer-css": "2.0.0-nightly.592",
+    "@parcel/transformer-html": "2.0.0-nightly.592",
+    "@parcel/transformer-postcss": "2.0.0-nightly.592",
+    "@parcel/transformer-posthtml": "2.0.0-nightly.592",
+    "@parcel/transformer-pug": "2.0.0-nightly.592",
+    "@parcel/transformer-sass": "2.0.0-nightly.592",
+    "parcel": "^2.0.0-beta.1",
+    "postcss": "^8.2.1",
+    "pug": "^3.0.0",
+    "sass": "^1.32.7"
   }
 }

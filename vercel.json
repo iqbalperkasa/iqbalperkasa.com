@@ -5,6 +5,11 @@
       "source": "/portfolio",
       "destination": "https://www.notion.so/Portfolio-dd1dd7f00b2d4e5897966e30fe655bde",
       "permanent": false
+    },
+    {
+      "source": "/resume",
+      "destination": "https://drive.google.com/file/d/1BzdY6eh2MCu-WM1yB7Xmu-SNVKjClRzm/view",
+      "permanent": false
     }
   ]
 }

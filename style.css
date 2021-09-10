@@ -17,7 +17,7 @@ body {
   color: #666;
   font-size: 1.2rem;
   line-height: 2;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
@@ -34,12 +34,10 @@ a:hover {
   text-decoration: underline;
 }
 
-.main-content {
+.wrapper {
   padding: 8%;
   text-align: left;
-  // width: 600px;
   margin: 0 auto;
-  // background-color: red;
 }
 
 h1 {
@@ -48,31 +46,26 @@ h1 {
   font-weight: 400;
 }
 
-p {
-
-  &.title {
-    text-transform: uppercase;
-    color: #999;
-    font-size: 0.8rem;
-  }
-  &.handles {
-
-    a {
-      display: inline-block;
-      margin-right: 10px;
-    }
-  }
+.title {
+  text-transform: uppercase;
+  color: #999;
+  font-size: 0.8rem;
+}
+.handles a {
+  display: inline-block;
+  margin-right: 10px;
 }
 
-.space {
+section {
   margin-bottom: 20px;
-
-  @media (max-width: 576px) {
+}
+@media (max-width: 576px) {
+  section {
     margin-bottom: 40px;
   }
-  &-small {
-    margin-bottom: 10px;
-  }
+}
+section.small {
+  margin-bottom: 10px;
 }
 
 .icon {

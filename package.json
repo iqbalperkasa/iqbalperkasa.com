@@ -1,25 +1,15 @@
 {
-  "name": "iqbalperkasa.com",
+  "name": "vite-project",
+  "version": "0.0.0",
   "scripts": {
-    "dev": "parcel serve index.pug",
-    "build": "rm -rf build/ && parcel build index.pug --dist-dir build"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@parcel/optimizer-cssnano": "2.0.0-nightly.592",
-    "@parcel/optimizer-htmlnano": "2.0.0-nightly.592",
-    "@parcel/packager-css": "2.0.0-nightly.592",
-    "@parcel/packager-html": "2.0.0-nightly.592",
-    "@parcel/transformer-css": "2.0.0-nightly.592",
-    "@parcel/transformer-html": "2.0.0-nightly.592",
-    "@parcel/transformer-postcss": "2.0.0-nightly.592",
-    "@parcel/transformer-posthtml": "2.0.0-nightly.592",
-    "@parcel/transformer-pug": "2.0.0-nightly.592",
-    "@parcel/transformer-sass": "2.0.0-nightly.592",
-    "parcel": "^2.0.0-beta.1",
-    "postcss": "^8.2.1",
-    "pug": "^3.0.0",
-    "sass": "^1.32.7"
+    "vite": "^2.5.4"
+  },
+  "dependencies": {
+    "vite-plugin-pwa": "^0.11.2"
   }
 }

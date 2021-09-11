@@ -1,7 +1,7 @@
-import { VitePWA } from 'vite-plugin-pwa';
+import { defineConfig } from 'vite';
 
-export default {
-  plugins: [
-    VitePWA(),
-  ]
-};
+export default defineConfig({
+  server: {
+    port: '1234',
+  },
+});

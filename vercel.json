@@ -3,12 +3,12 @@
   "redirects": [
     {
       "source": "/portfolio",
-      "destination": "https://iqbalperkasa.notion.site/Iqbal-Perkasa-f1f70ae087184ec58a4f78f95a6fb7f5?pvs=4",
+      "destination": "https://iqbalperkasa.super.site",
       "permanent": false
     },
     {
       "source": "/resume",
-      "destination": "https://drive.google.com/file/d/16nEnrUU2n8ClJ4LhyM9ltlEFBQOt3CiE/view",
+      "destination": "https://iqbalperkasa.com/resume.pdf",
       "permanent": false
     },
     {

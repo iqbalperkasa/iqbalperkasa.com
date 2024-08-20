@@ -1,12 +1,16 @@
 {
-  "name": "vite-project",
-  "version": "0.0.0",
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
-  "devDependencies": {
-    "vite": "^2.9.16"
+  "dependencies": {
+    "nuxt": "^3.12.4",
+    "vue": "latest"
   }
 }

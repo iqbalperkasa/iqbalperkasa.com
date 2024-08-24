@@ -15,8 +15,9 @@
       <!-- <div class="size-48 opacity-40 rounded-full rotate-12 bg-red-100 absolute -right-10 -top-28 z-0 bg-[url('/avatar.jpg')] bg-cover"></div> -->
       <p class="text-2xl leading-relaxed lg:text-4xl lg:leading-[1.8] relative font-medium z-10">I'm a full-stack web engineer focusing on frontend JavaScript ecosystem. I help companies and startups to build, design the system, plan, and architect the features to reach the goal which provide value to the customers.</p>
     </section>
-    <section>
-      <a href="/resume.pdf" class="bg-stone-200 hover:bg-stone-300 active:bg-stone-400 transition-colors p-4 rounded-md font-medium">View my resume</a>
+    <section class="flex gap-4 items-center">
+      <a href="/resume.pdf" class="border-2 border-transparent bg-stone-200 hover:bg-stone-300 active:bg-stone-400 transition-colors py-3 px-4 rounded-lg font-medium">View my resume</a>
+      <a href="https://iqbalperkasa.super.site" target="_blank" class="border-2 border-transparent hover:border-stone-300 active:border-stone-400 transition-colors py-3 px-4 rounded-lg font-medium">Portfolio <Icon name="gravity-ui:arrow-up-right-from-square" class="align-middle mb-1 ml-1" size="16" /></a>
     </section>
     <section>
       <p class="lg:text-xl text-stone-600 lg:leading-loose leading-relaxed">

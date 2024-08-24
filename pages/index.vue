@@ -28,8 +28,8 @@
         <anchor href="https://t.me/iqbalperkasa">Telegram</anchor>, or<br />
         email at <anchor href="mailto:iqbal@iqbalperkasa.com" @click="copyToClipboard($event)">{{ email }}</anchor>
         <span class="ml-1 cursor-pointer" @click="copyToClipboard($event)">
-          <Icon v-show="!copied" size="18" name="gravity-ui:copy" class="align-middle" />
-          <Icon v-show="copied" size="18" name="gravity-ui:circle-check-fill" class="align-middle text-green-500" />
+          <Icon v-show="!copied" size="16" name="gravity-ui:copy" class="align-middle" />
+          <Icon v-show="copied" size="16" name="gravity-ui:circle-check-fill" class="align-middle text-green-500" />
         </span>
       </p>
     </section>

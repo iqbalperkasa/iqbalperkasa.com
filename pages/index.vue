@@ -2,7 +2,7 @@
   <main class="container flex flex-col gap-16 my-24">
     <header class="flex gap-6 items-center">
       <logo v-if="showLogo" :size="20" @mouseover="showLogo = false" />
-      <div v-else class="size-[20px] relative bg-red-200" @mouseleave="showLogo = true">
+      <div v-else class="size-[20px] relative bg-stone-300 rounded-full" @mouseleave="showLogo = true">
         <div class="absolute size-[50px] left-[-15px] top-[-15px] bg-[url('/avatar.png')] bg-cover rounded-full cursor-none"></div>
       </div>
       <!-- <img src="/avatar.jpg" class="rounded-full w-[40px]" /> -->

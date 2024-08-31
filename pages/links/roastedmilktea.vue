@@ -1,1 +1,1 @@
-<script setup lang="ts">await navigateTo('https://gist.github.com/iqbalperkasa/090fc68adb871566f0043ddd10abc339', { external: true })</script>
+<script setup lang="ts">await navigateTo('https://shopee.co.id/product/23413322/26709751250/', { external: true })</script>

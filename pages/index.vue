@@ -1,5 +1,5 @@
 <template>
-  <main class="container flex flex-col gap-16 my-24">
+  <main class="flex flex-col gap-16 p-8 lg:p-24 w-full max-w-[60rem]">
     <header class="flex gap-6 items-center">
       <logo v-if="showLogo" :size="20" @mouseover="showLogo = false" />
       <div v-else class="size-[20px] relative bg-stone-300 rounded-full" @mouseleave="showLogo = true">
@@ -21,7 +21,7 @@
     </section>
     <section>
       <p class="lg:text-xl text-stone-600 lg:leading-loose leading-relaxed">
-        Reach me on
+        Reach me on <br class="md:hidden" />
         <anchor href="https://www.linkedin.com/in/iqbalperkasa">LinkedIn</anchor>,
         <anchor href="https://twitter.com/iqbalperkasa">Twitter</anchor>,
         <anchor href="https://github.com/iqbalperkasa">GitHub</anchor>,

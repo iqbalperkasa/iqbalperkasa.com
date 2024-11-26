@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col gap-16 p-8 lg:p-24 w-full max-w-[60rem]">
+  <main class="flex flex-col gap-16 p-8 lg:p-24 w-full min-w-[23.125rem]">
     <header class="flex gap-6 items-center">
       <logo v-if="showLogo" :size="20" @mouseover="showLogo = false" />
       <div v-else class="size-[20px] relative bg-stone-300 rounded-full" @mouseleave="showLogo = true">
@@ -13,7 +13,7 @@
     </header>
     <section class="relative">
       <!-- <div class="size-48 opacity-40 rounded-full rotate-12 bg-red-100 absolute -right-10 -top-28 z-0 bg-[url('/avatar.jpg')] bg-cover"></div> -->
-      <p class="text-2xl leading-relaxed lg:text-4xl lg:leading-[1.8] relative font-medium z-10">I'm a full-stack web engineer focusing on frontend JavaScript ecosystem. I help companies and startups to build, design the system, plan, and architect the features to reach the goal which provide value to the customers.</p>
+      <p class="max-w-[60rem] md:max-w-[40rem] text-2xl leading-relaxed lg:text-4xl lg:leading-[1.8] relative font-medium z-10">I'm a full-stack web engineer focusing on frontend JavaScript ecosystem. I help companies and startups to build, design the system, plan, and architect the features to reach the goal which provide value<br class="hidden md:block" /> to the customers.</p>
     </section>
     <section class="flex gap-4 items-center">
       <a href="/resume.pdf" class="border-2 border-transparent bg-stone-200 hover:bg-stone-300 active:bg-stone-400 transition-colors py-3 px-4 rounded-lg font-medium">View my resume</a>

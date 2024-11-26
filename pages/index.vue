@@ -1,5 +1,5 @@
 <template>
-  <main class="flex flex-col gap-16 p-8 lg:p-24 w-full min-w-[23.125rem]">
+  <main class="flex flex-col gap-16 p-8 lg:p-24 w-full 2xl:w-[120rem] 2xl:mx-auto min-w-[23.125rem]">
     <header class="flex gap-6 items-center">
       <logo v-if="showLogo" :size="20" @mouseover="showLogo = false" />
       <div v-else class="size-[20px] relative bg-stone-300 rounded-full" @mouseleave="showLogo = true">

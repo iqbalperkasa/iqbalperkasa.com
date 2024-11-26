@@ -3,9 +3,9 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   // devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", '@nuxtjs/google-fonts', "@nuxt/icon"],
-  typescript: {
-    typeCheck: true,
-  },
+  // typescript: {
+  //   typeCheck: true,
+  // },
   app: {
     head: {
       title: 'Iqbal Perkasa',

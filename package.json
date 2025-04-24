@@ -13,11 +13,12 @@
     "@nuxt/icon": "^1.4.8",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
-    "@vueuse/core": "^11.0.1",
+    "@vueuse/core": "^13.1.0",
     "nuxt": "^3.14.1592",
     "vue": "latest"
   },
   "devDependencies": {
+    "@iconify-json/gravity-ui": "^1.2.5",
     "typescript": "^5.7.2",
     "vue-tsc": "^2.1.10"
   }

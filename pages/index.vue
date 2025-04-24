@@ -8,16 +8,16 @@
       <!-- <img src="/avatar.jpg" class="rounded-full w-[40px]" /> -->
       <h1 class="text-xl font-medium leading-none">Iqbal Perkasa</h1>
       <!-- <nav class="flex content-center">
-        <nuxt-link class="p-4 leading-none cursor-pointer transition-colors rounded-md text-md text-stone-400 hover:text-black active:bg-stone-100">Contact</nuxt-link>
+        <nuxt-link class="p-4 leading-none transition-colors rounded-md cursor-pointer text-md text-stone-400 hover:text-black active:bg-stone-100">Contact</nuxt-link>
       </nav> -->
     </header>
     <section class="relative">
       <!-- <div class="size-48 opacity-40 rounded-full rotate-12 bg-red-100 absolute -right-10 -top-28 z-0 bg-[url('/avatar.jpg')] bg-cover"></div> -->
-      <p class="max-w-[60rem] md:max-w-[40rem] text-2xl leading-relaxed lg:text-4xl lg:leading-[1.8] relative font-medium z-10">I'm a full-stack web engineer focusing on frontend JavaScript ecosystem. I help companies and startups to build, design the system, plan, and architect the features to reach the goal which provide value<br class="hidden md:block" /> to the customers.</p>
+      <p class="max-w-[60rem] md:max-w-[40rem] text-2xl leading-relaxed lg:text-4xl lg:leading-[1.8] relative font-medium z-10">A full-stack web engineer focusing on frontend JavaScript ecosystem.<br class="hidden lg:block" /> I help companies and startups to build, design the system, plan, and architect the features to reach the goal which provide value<br class="hidden lg:block" /> to the customers.</p>
     </section>
     <section class="flex items-center gap-4">
-      <a href="/resume.pdf" class="px-4 py-3 font-medium border-2 border-transparent rounded-lg transition-colors bg-stone-200 hover:bg-stone-300 active:bg-stone-400">View my resume</a>
-      <a href="https://iqbalperkasa.super.site" target="_blank" class="px-4 py-3 font-medium border-2 border-transparent rounded-lg transition-colors hover:border-stone-300 active:border-stone-400">Portfolio <Icon name="gravity-ui:arrow-up-right-from-square" class="mb-1 ml-1 align-middle" size="18" /></a>
+      <a href="/resume.pdf" class="px-4 py-3 font-medium transition-colors border-2 border-transparent rounded-lg bg-stone-200 hover:bg-stone-300 active:bg-stone-400">View my resume</a>
+      <a href="https://iqbalperkasa.super.site" target="_blank" class="px-4 py-3 font-medium transition-colors border-2 border-transparent rounded-lg hover:border-stone-300 active:border-stone-400">Portfolio <Icon name="gravity-ui:arrow-up-right-from-square" class="mb-1 ml-1 align-middle" size="18" /></a>
     </section>
     <section>
       <p class="leading-relaxed lg:text-xl text-stone-600 lg:leading-loose">

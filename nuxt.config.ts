@@ -29,10 +29,7 @@ export default defineNuxtConfig({
         { property: "og:type", content: "article" },
       ],
       link: [{ rel: "icon", type: "image/png", href: "/avatar.png" }],
-      script: [
-        // { async: true, src: 'https://platform.twitter.com/widgets.js', },
-        { src: "/main.js" },
-      ],
+      script: [{ src: "/main.js" }],
     },
   },
   googleFonts: {

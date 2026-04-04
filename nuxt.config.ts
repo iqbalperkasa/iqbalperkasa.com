@@ -16,20 +16,18 @@ export default defineNuxtConfig({
         { name: "viewport", content: "width=device-width, initial-scale=1.0" },
         {
           name: "description",
-          content:
-            "Website of Iqbal Perkasa, a full-stack engineer from Indonesia.",
+          content: "Iqbal Perkasa, a full-stack engineer from Indonesia.",
         },
         { property: "og:title", content: "Iqbal Perkasa" },
         {
           property: "og:description",
-          content:
-            "Website of Iqbal Perkasa, a full-stack engineer from Indonesia.",
+          content: "Iqbal Perkasa, a full-stack engineer from Indonesia.",
         },
         { property: "og:url", content: "https://iqbalperkasa.com" },
         { property: "og:type", content: "article" },
       ],
       link: [{ rel: "icon", type: "image/png", href: "/avatar.png" }],
-      script: [{ src: "/main.js" }],
+      // script: [{ src: "/main.js" }],
     },
   },
   googleFonts: {

@@ -12,8 +12,7 @@
       </nav> -->
     </header>
     <section class="relative">
-      <!-- <div class="size-48 opacity-40 rounded-full rotate-12 bg-red-100 absolute -right-10 -top-28 z-0 bg-[url('/avatar.jpg')] bg-cover"></div> -->
-      <p class="max-w-[60rem] md:max-w-[40rem] text-2xl leading-relaxed lg:text-4xl lg:leading-[1.8] relative font-medium z-10">A full-stack web engineer focusing on frontend JavaScript ecosystem.<br class="hidden lg:block" /> I help companies and startups to build, design the system, plan, and architect the features to reach the goal which provide value<br class="hidden lg:block" /> to the customers.</p>
+      <p class="max-w-[60rem] md:max-w-[40rem] text-2xl leading-relaxed lg:text-4xl lg:leading-[1.8] relative font-medium z-10">A full-stack engineer with a focus on the JavaScript ecosystem.<br class="hidden lg:block" /> I help companies design and build features that solve real problems.</p>
     </section>
     <section class="flex items-center gap-4">
       <a href="/resume.pdf" class="px-4 py-3 font-medium transition-colors border-2 border-transparent rounded-lg bg-stone-200 hover:bg-stone-300 active:bg-stone-400">View my resume</a>

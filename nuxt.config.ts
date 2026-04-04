@@ -9,6 +9,11 @@ export default defineNuxtConfig({
   devServer: {
     port: 1234,
   },
+  vite: {
+    optimizeDeps: {
+      include: ["@vue/devtools-core", "@vue/devtools-kit", "@vueuse/core"],
+    },
+  },
   app: {
     head: {
       title: "Iqbal Perkasa",

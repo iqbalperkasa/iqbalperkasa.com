@@ -16,7 +16,7 @@
     </section>
     <section class="flex items-center gap-4">
       <a href="/resume.pdf" class="px-4 py-3 font-medium transition-colors border-2 border-transparent rounded-lg bg-stone-200 hover:bg-stone-300 active:bg-stone-400">View my resume</a>
-      <a href="https://iqbalperkasa.super.site" target="_blank" class="px-4 py-3 font-medium transition-colors border-2 border-transparent rounded-lg hover:border-stone-300 active:border-stone-400">Portfolio <Icon name="gravity-ui:arrow-up-right-from-square" class="mb-1 ml-1 align-middle" size="18" /></a>
+      <!-- <a href="https://iqbalperkasa.super.site" target="_blank" class="px-4 py-3 font-medium transition-colors border-2 border-transparent rounded-lg hover:border-stone-300 active:border-stone-400">Portfolio <Icon name="gravity-ui:arrow-up-right-from-square" class="mb-1 ml-1 align-middle" size="18" /></a> -->
     </section>
     <section>
       <p class="leading-relaxed lg:text-xl text-stone-600 lg:leading-loose">

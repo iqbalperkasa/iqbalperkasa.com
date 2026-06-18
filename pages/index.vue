@@ -29,7 +29,8 @@
         <span class="ml-1 cursor-pointer" @click="copyToClipboard($event)">
           <Icon v-show="!copied" size="18" name="gravity-ui:copy" class="align-middle" />
           <Icon v-show="copied" size="18" name="gravity-ui:circle-check-fill" class="text-green-500 align-middle" />
-        </span>
+        </span><br />
+        You can also visit my portfolio <anchor href="https://iqbalperkasa.super.site">here</anchor>.
       </p>
     </section>
 
